@@ -6,7 +6,7 @@ public class Exercicio4 {
 		Scanner ler = new Scanner(System.in);
 		int numero = 0, totalPares = 0, totalImpares = 0;
 		while (numero != 999) {
-			System.out.println("Digite um número:");
+			System.out.println("Digite um número: (999 para parar)");
 			numero = ler.nextInt();
 			if (numero == 999) {
 				break;
