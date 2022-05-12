@@ -11,7 +11,7 @@ public class Exercicio4 {
 		}
 		for (int l = 0;l < 4;l++) {
 			for (int c = 0;c < 4;c++) {
-				System.out.print("["+matriz[l][c]+"]" + "\t");
+				System.out.print("["+matriz[l][c]+"]git pu" + "\t");
 				if (l == 0 && c == 0) {
 					maior = matriz[l][c];
 					menor = matriz[l][c];
